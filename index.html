@@ -5,140 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Créditos Veracruz - Contacto</title>
     
-    <!-- Fuente Roboto de Google -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Fuente Inter de Google (clara y moderna) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <!-- Librería de iconos gratuitos (FontAwesome) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <style>
         body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #f0f2f5;
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(180deg, #e2ecf5 0%, #f4f7fa 100%);
+            min-height: 100vh;
             margin: 0;
-            padding: 15px;
+            padding: 20px 15px;
             display: flex;
             justify-content: center;
+            align-items: flex-start;
+            box-sizing: border-box;
         }
         
         .container {
-            max-width: 500px;
+            max-width: 480px;
             width: 100%;
-            background: white;
-            padding: 40px 20px;
-            border-radius: 16px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
-            text-align: center;
-        }
-        
-        .header-title {
-            font-size: 18px;
-            color: #666;
-            margin-bottom: 25px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        
-        h1 {
-            font-size: 26px;
-            color: #1c1e21;
-            margin-bottom: 15px;
-            line-height: 1.3;
-        }
-        
-        .subtitle {
-            font-size: 17px;
-            color: #555;
-            margin-bottom: 35px;
-            line-height: 1.5;
-        }
-        
-        .btn {
-            display: flex;
-            align-items: center;
-            justify-content: flex-start;
-            padding: 18px 20px;
-            margin-bottom: 16px;
-            border-radius: 12px;
-            text-decoration: none;
-            color: white;
-            font-size: 18px;
-            font-weight: bold;
-            transition: opacity 0.2s, transform 0.1s;
-        }
-        
-        .btn:active {
-            transform: scale(0.98);
-            opacity: 0.9;
-        }
-        
-        .btn i {
-            font-size: 26px;
-            margin-right: 15px;
-            width: 35px;
-            text-align: center;
-        }
-        
-        /* Colores de los botones */
-        .btn-whatsapp { background-color: #25D366; }
-        .btn-facebook { background-color: #1877F2; }
-        .btn-phone    { background-color: #008080; }
-        .btn-email    { background-color: #EA4335; }
-        .btn-web      { background-color: #34495E; }
-        
-        .footer {
-            margin-top: 35px;
-            font-size: 16px;
-            color: #555;
-            line-height: 1.6;
-        }
-        
-        .footer strong {
-            display: block;
-            margin-bottom: 8px;
-            color: #1c1e21;
-            font-size: 18px;
-        }
-    </style>
-</head>
-<body>
-
-    <div class="container">
-        <div class="header-title">Créditos Veracruz</div>
-        
-        <h1>¡Tus asesores de confianza en Veracruz!</h1>
-        <p class="subtitle">Toca cualquiera de los botones de abajo para comunicarte con nosotros de inmediato.</p>
-        
-        <!-- Reemplaza 5212290000000 por tu número de WhatsApp (52 + 1 + 10 dígitos sin espacios) -->
-        <a href="https://wa.me/522294112513" class="btn btn-whatsapp" target="_blank">
-            <i class="fab fa-whatsapp"></i> Escríbenos por WhatsApp
-        </a>
-        
-        <!-- Reemplaza el # por el enlace de tu página de Facebook de Créditos Veracruz -->
-        <a href="https://www.facebook.com/profile.php?id=61594299542706" class="btn btn-facebook" target="_blank">
-            <i class="fab fa-facebook"></i> Visita nuestro Facebook
-        </a>
-        
-        <!-- Reemplaza el número tanto en href="tel:..." como en el texto visible -->
-        <a href="tel:+522294112513" class="btn btn-phone">
-            <i class="fas fa-phone-alt"></i> Llámanos ahora +52 229 411 2513
-        </a>
-        
-        <!-- Reemplaza correo@creditosveracruz.com por tu correo real -->
-        <a href="mailto:correo@creditosveracruz.com" class="btn btn-email">
-            <i class="fas fa-envelope"></i> Envíanos un correo
-        </a>
-        
-        <!-- Reemplaza el # por el enlace de tu página web -->
-        <a href="https://crediver.com.mx/" class="btn btn-web" target="_blank">
-            <i class="fas fa-globe"></i> Visita nuestra página web
-        </a>
-
-        <div class="footer">
-            <strong>¿Necesitas ayuda?</strong>
-            Llámanos directamente al +52 229 411 2513
-        </div>
-    </div>
-
-</body>
-</html>
+            background: #ffffff;
+            padding: 32px 22px
